@@ -35,7 +35,6 @@
 		E1839E221BF79974002212C6 /* BlockPinch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1839E061BF79974002212C6 /* BlockPinch.swift */; };
 		E1839E231BF79974002212C6 /* BlockSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1839E071BF79974002212C6 /* BlockSwipe.swift */; };
 		E1839E241BF79974002212C6 /* BlockTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1839E081BF79974002212C6 /* BlockTap.swift */; };
-		E1839E251BF79974002212C6 /* BlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1839E091BF79974002212C6 /* BlockWebView.swift */; };
 		E1839E261BF79974002212C6 /* BoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1839E0A1BF79974002212C6 /* BoolExtensions.swift */; };
 		E1839E271BF79974002212C6 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1839E0B1BF79974002212C6 /* CGFloatExtensions.swift */; };
 		E1839E281BF79974002212C6 /* CGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1839E0C1BF79974002212C6 /* CGRectExtensions.swift */; };
@@ -94,7 +93,6 @@
 		E1839E061BF79974002212C6 /* BlockPinch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockPinch.swift; path = Sources/BlockPinch.swift; sourceTree = SOURCE_ROOT; };
 		E1839E071BF79974002212C6 /* BlockSwipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockSwipe.swift; path = Sources/BlockSwipe.swift; sourceTree = SOURCE_ROOT; };
 		E1839E081BF79974002212C6 /* BlockTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockTap.swift; path = Sources/BlockTap.swift; sourceTree = SOURCE_ROOT; };
-		E1839E091BF79974002212C6 /* BlockWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockWebView.swift; path = Sources/BlockWebView.swift; sourceTree = SOURCE_ROOT; };
 		E1839E0A1BF79974002212C6 /* BoolExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoolExtensions.swift; path = Sources/BoolExtensions.swift; sourceTree = SOURCE_ROOT; };
 		E1839E0B1BF79974002212C6 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = Sources/CGFloatExtensions.swift; sourceTree = SOURCE_ROOT; };
 		E1839E0C1BF79974002212C6 /* CGRectExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGRectExtensions.swift; path = Sources/CGRectExtensions.swift; sourceTree = SOURCE_ROOT; };
@@ -143,7 +141,6 @@
 				E1839E061BF79974002212C6 /* BlockPinch.swift */,
 				E1839E071BF79974002212C6 /* BlockSwipe.swift */,
 				E1839E081BF79974002212C6 /* BlockTap.swift */,
-				E1839E091BF79974002212C6 /* BlockWebView.swift */,
 				E1839E0A1BF79974002212C6 /* BoolExtensions.swift */,
 				E10A794A1D6F5C5300735549 /* BundleExtensions.swift */,
 				E1839E0B1BF79974002212C6 /* CGFloatExtensions.swift */,
@@ -246,12 +243,11 @@
 		E1839DAD1BF79335002212C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "Goktug Yilmaz";
 				TargetAttributes = {
 					E1839DB41BF79335002212C6 = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = Y8MK4UJH8L;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -338,7 +334,6 @@
 				E1839E311BF79974002212C6 /* UIColorExtensions.swift in Sources */,
 				E10A79371D6F4BDB00735549 /* UITextFieldExtensions.swift in Sources */,
 				E17878161C86525B00BC05AA /* NSAttributedStringExtensions.swift in Sources */,
-				E1839E251BF79974002212C6 /* BlockWebView.swift in Sources */,
 				E1839E231BF79974002212C6 /* BlockSwipe.swift in Sources */,
 				E1839E221BF79974002212C6 /* BlockPinch.swift in Sources */,
 				E1839E2E1BF79974002212C6 /* StringExtensions.swift in Sources */,
@@ -392,6 +387,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -416,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -449,6 +445,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -467,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -481,10 +478,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Y8MK4UJH8L;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EZSwiftExtensions/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gbf.EZSwiftExtensions;
 				PRODUCT_NAME = EZSwiftExtensionsExample;
 				SWIFT_VERSION = 5.0;
@@ -495,10 +493,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Y8MK4UJH8L;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EZSwiftExtensions/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gbf.EZSwiftExtensions;
 				PRODUCT_NAME = EZSwiftExtensionsExample;
 				SWIFT_VERSION = 5.0;

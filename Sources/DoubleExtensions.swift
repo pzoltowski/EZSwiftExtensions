@@ -6,6 +6,10 @@
 //  Copyright © 2015 Goktug Yilmaz. All rights reserved.
 //
 
+#if os(iOS) || os(tvOS)
+import UIKit
+#endif
+
 import Foundation
 
 precedencegroup PowerPrecedence { higherThan: MultiplicationPrecedence }

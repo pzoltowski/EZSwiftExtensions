@@ -29,7 +29,6 @@
 		5AF5777C1EEE52DC00B1C277 /* BlockPinch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87031C0ED34300972D0A /* BlockPinch.swift */; };
 		5AF5777D1EEE52DC00B1C277 /* BlockSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87041C0ED34300972D0A /* BlockSwipe.swift */; };
 		5AF5777E1EEE52DC00B1C277 /* BlockTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87051C0ED34300972D0A /* BlockTap.swift */; };
-		5AF5777F1EEE52DC00B1C277 /* BlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87061C0ED34300972D0A /* BlockWebView.swift */; };
 		5AF577801EEE52DC00B1C277 /* BoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87071C0ED34300972D0A /* BoolExtensions.swift */; };
 		5AF577811EEE52DC00B1C277 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19AC0E51DCBA25100908905 /* BundleExtensions.swift */; };
 		5AF577821EEE52DC00B1C277 /* CollectionsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A02399C1E6D345C00C235B8 /* CollectionsExtension.swift */; };
@@ -81,7 +80,6 @@
 		5AF5783E1EEE595C00B1C277 /* BlockPinchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A79591D6F62DF00735549 /* BlockPinchTests.swift */; };
 		5AF5783F1EEE595C00B1C277 /* BlockSwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A795A1D6F62DF00735549 /* BlockSwipeTests.swift */; };
 		5AF578401EEE595C00B1C277 /* BlockTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A795B1D6F62DF00735549 /* BlockTapTests.swift */; };
-		5AF578411EEE595C00B1C277 /* BlockWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A795C1D6F62DF00735549 /* BlockWebViewTests.swift */; };
 		5AF578421EEE595C00B1C277 /* BoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7605D3041C81FBB80046FAC3 /* BoolTests.swift */; };
 		5AF578431EEE595C00B1C277 /* BundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A796A1D6F65AF00735549 /* BundleTests.swift */; };
 		5AF578441EEE595C00B1C277 /* CGFloatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7605D3051C81FBB80046FAC3 /* CGFloatTests.swift */; };
@@ -158,7 +156,6 @@
 		B5DC87201C0ED34300972D0A /* BlockPinch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87031C0ED34300972D0A /* BlockPinch.swift */; };
 		B5DC87211C0ED34300972D0A /* BlockSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87041C0ED34300972D0A /* BlockSwipe.swift */; };
 		B5DC87221C0ED34300972D0A /* BlockTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87051C0ED34300972D0A /* BlockTap.swift */; };
-		B5DC87231C0ED34300972D0A /* BlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87061C0ED34300972D0A /* BlockWebView.swift */; };
 		B5DC87241C0ED34300972D0A /* BoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87071C0ED34300972D0A /* BoolExtensions.swift */; };
 		B5DC87251C0ED34300972D0A /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87081C0ED34300972D0A /* CGFloatExtensions.swift */; };
 		B5DC87261C0ED34300972D0A /* CGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87091C0ED34300972D0A /* CGRectExtensions.swift */; };
@@ -193,7 +190,6 @@
 		CD4D30BC1CEEAFD900CB53BC /* BlockSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87041C0ED34300972D0A /* BlockSwipe.swift */; };
 		CD4D30BE1CEEAFD900CB53BC /* UISwitchExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1587FB11CCA420400A0B071 /* UISwitchExtensions.swift */; };
 		CD4D30BF1CEEAFD900CB53BC /* BlockTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87051C0ED34300972D0A /* BlockTap.swift */; };
-		CD4D30C11CEEAFD900CB53BC /* BlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87061C0ED34300972D0A /* BlockWebView.swift */; };
 		CD4D30C21CEEAFD900CB53BC /* BoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87071C0ED34300972D0A /* BoolExtensions.swift */; };
 		CD4D30C31CEEAFD900CB53BC /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87081C0ED34300972D0A /* CGFloatExtensions.swift */; };
 		CD4D30C51CEEAFD900CB53BC /* CGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87091C0ED34300972D0A /* CGRectExtensions.swift */; };
@@ -246,8 +242,6 @@
 		E10A79601D6F62DF00735549 /* BlockSwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A795A1D6F62DF00735549 /* BlockSwipeTests.swift */; };
 		E10A79611D6F62DF00735549 /* BlockTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A795B1D6F62DF00735549 /* BlockTapTests.swift */; };
 		E10A79621D6F62DF00735549 /* BlockTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A795B1D6F62DF00735549 /* BlockTapTests.swift */; };
-		E10A79631D6F62DF00735549 /* BlockWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A795C1D6F62DF00735549 /* BlockWebViewTests.swift */; };
-		E10A79641D6F62DF00735549 /* BlockWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A795C1D6F62DF00735549 /* BlockWebViewTests.swift */; };
 		E10A79831D6F65AF00735549 /* CGRectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A79651D6F65AF00735549 /* CGRectTests.swift */; };
 		E10A79841D6F65AF00735549 /* CGRectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A79651D6F65AF00735549 /* CGRectTests.swift */; };
 		E10A79851D6F65AF00735549 /* CharacterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A79661D6F65AF00735549 /* CharacterTests.swift */; };
@@ -325,9 +319,6 @@
 		E19AC0F31DCBA2CE00908905 /* TimerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19AC0F11DCBA2CE00908905 /* TimerExtensions.swift */; };
 		E1D7CDD01CF8FFC7008E4C07 /* UIBarButtonItemExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7CDCF1CF8FFC7008E4C07 /* UIBarButtonItemExtensions.swift */; };
 		E1F21CB51CB55CDA004A01A4 /* EZSwiftFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F21CB41CB55CDA004A01A4 /* EZSwiftFunctions.swift */; };
-		EDBA58C021946A35007D3F86 /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA58BF21946A35007D3F86 /* SynchronizedDictionary.swift */; };
-		EDBA58C121946B01007D3F86 /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA58BF21946A35007D3F86 /* SynchronizedDictionary.swift */; };
-		EDBA58C221946B01007D3F86 /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA58BF21946A35007D3F86 /* SynchronizedDictionary.swift */; };
 		FADFAA5C1D9D787D00CF9F7A /* FloatingPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADFAA5B1D9D787D00CF9F7A /* FloatingPointTests.swift */; };
 		FADFAA5D1D9D787D00CF9F7A /* FloatingPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADFAA5B1D9D787D00CF9F7A /* FloatingPointTests.swift */; };
 		FADFAA631D9D8C2F00CF9F7A /* FloatingPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADFAA621D9D8C2F00CF9F7A /* FloatingPointExtensions.swift */; };
@@ -401,7 +392,6 @@
 		B5DC87031C0ED34300972D0A /* BlockPinch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockPinch.swift; sourceTree = "<group>"; };
 		B5DC87041C0ED34300972D0A /* BlockSwipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockSwipe.swift; sourceTree = "<group>"; };
 		B5DC87051C0ED34300972D0A /* BlockTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockTap.swift; sourceTree = "<group>"; };
-		B5DC87061C0ED34300972D0A /* BlockWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockWebView.swift; sourceTree = "<group>"; };
 		B5DC87071C0ED34300972D0A /* BoolExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolExtensions.swift; sourceTree = "<group>"; };
 		B5DC87081C0ED34300972D0A /* CGFloatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
 		B5DC87091C0ED34300972D0A /* CGRectExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectExtensions.swift; sourceTree = "<group>"; };
@@ -431,7 +421,6 @@
 		E10A79591D6F62DF00735549 /* BlockPinchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockPinchTests.swift; sourceTree = "<group>"; };
 		E10A795A1D6F62DF00735549 /* BlockSwipeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockSwipeTests.swift; sourceTree = "<group>"; };
 		E10A795B1D6F62DF00735549 /* BlockTapTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockTapTests.swift; sourceTree = "<group>"; };
-		E10A795C1D6F62DF00735549 /* BlockWebViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockWebViewTests.swift; sourceTree = "<group>"; };
 		E10A79651D6F65AF00735549 /* CGRectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectTests.swift; sourceTree = "<group>"; };
 		E10A79661D6F65AF00735549 /* CharacterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterTests.swift; sourceTree = "<group>"; };
 		E10A79671D6F65AF00735549 /* DoubleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleTests.swift; sourceTree = "<group>"; };
@@ -475,7 +464,6 @@
 		E19AC0F11DCBA2CE00908905 /* TimerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerExtensions.swift; sourceTree = "<group>"; };
 		E1D7CDCF1CF8FFC7008E4C07 /* UIBarButtonItemExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtensions.swift; sourceTree = "<group>"; };
 		E1F21CB41CB55CDA004A01A4 /* EZSwiftFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZSwiftFunctions.swift; sourceTree = "<group>"; };
-		EDBA58BF21946A35007D3F86 /* SynchronizedDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizedDictionary.swift; sourceTree = "<group>"; };
 		FADFAA5B1D9D787D00CF9F7A /* FloatingPointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPointTests.swift; sourceTree = "<group>"; };
 		FADFAA621D9D8C2F00CF9F7A /* FloatingPointExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPointExtensions.swift; sourceTree = "<group>"; };
 		FFA538CB1E75D69F0093552E /* UIStackViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIStackViewExtensions.swift; path = ../EZSwiftExtensions/UIStackViewExtensions.swift; sourceTree = "<group>"; };
@@ -574,7 +562,6 @@
 				E10A79591D6F62DF00735549 /* BlockPinchTests.swift */,
 				E10A795A1D6F62DF00735549 /* BlockSwipeTests.swift */,
 				E10A795B1D6F62DF00735549 /* BlockTapTests.swift */,
-				E10A795C1D6F62DF00735549 /* BlockWebViewTests.swift */,
 				7605D3041C81FBB80046FAC3 /* BoolTests.swift */,
 				E10A796A1D6F65AF00735549 /* BundleTests.swift */,
 				7605D3051C81FBB80046FAC3 /* CGFloatTests.swift */,
@@ -634,7 +621,6 @@
 				B5DC87031C0ED34300972D0A /* BlockPinch.swift */,
 				B5DC87041C0ED34300972D0A /* BlockSwipe.swift */,
 				B5DC87051C0ED34300972D0A /* BlockTap.swift */,
-				B5DC87061C0ED34300972D0A /* BlockWebView.swift */,
 				B5DC87071C0ED34300972D0A /* BoolExtensions.swift */,
 				E19AC0E51DCBA25100908905 /* BundleExtensions.swift */,
 				5A02399C1E6D345C00C235B8 /* CollectionsExtension.swift */,
@@ -681,7 +667,6 @@
 				0B96F02C1E2FD32000236DDE /* UIEdgeInsets.swift */,
 				2D919FCF212FC9440024A3AE /* TimePassed.swift */,
 				98246C662111CC0500ECA4A2 /* HashableExtensions.swift */,
-				EDBA58BF21946A35007D3F86 /* SynchronizedDictionary.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -832,7 +817,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "Goktug Yilmaz";
 				TargetAttributes = {
 					5AF577601EEE527500B1C277 = {
@@ -966,7 +951,6 @@
 				5AF5777C1EEE52DC00B1C277 /* BlockPinch.swift in Sources */,
 				5AF5777D1EEE52DC00B1C277 /* BlockSwipe.swift in Sources */,
 				5AF5777E1EEE52DC00B1C277 /* BlockTap.swift in Sources */,
-				5AF5777F1EEE52DC00B1C277 /* BlockWebView.swift in Sources */,
 				5AF577801EEE52DC00B1C277 /* BoolExtensions.swift in Sources */,
 				5AF577811EEE52DC00B1C277 /* BundleExtensions.swift in Sources */,
 				5AF577821EEE52DC00B1C277 /* CollectionsExtension.swift in Sources */,
@@ -1004,7 +988,6 @@
 				5AF577A11EEE52DC00B1C277 /* UIStoryboardExtensions.swift in Sources */,
 				5AF577A21EEE52DC00B1C277 /* UISwitchExtensions.swift in Sources */,
 				5AF577A31EEE52DC00B1C277 /* UITextFieldExtensions.swift in Sources */,
-				EDBA58C021946A35007D3F86 /* SynchronizedDictionary.swift in Sources */,
 				5AF577A41EEE52DC00B1C277 /* UITextViewExtensions.swift in Sources */,
 				5AF577A51EEE52DC00B1C277 /* UIUserInterfaceSizeClassExtensions.swift in Sources */,
 				5AF577A61EEE52DC00B1C277 /* UIViewControllerExtensions.swift in Sources */,
@@ -1029,7 +1012,6 @@
 				5AF5783E1EEE595C00B1C277 /* BlockPinchTests.swift in Sources */,
 				5AF5783F1EEE595C00B1C277 /* BlockSwipeTests.swift in Sources */,
 				5AF578401EEE595C00B1C277 /* BlockTapTests.swift in Sources */,
-				5AF578411EEE595C00B1C277 /* BlockWebViewTests.swift in Sources */,
 				5AF578421EEE595C00B1C277 /* BoolTests.swift in Sources */,
 				5AF578431EEE595C00B1C277 /* BundleTests.swift in Sources */,
 				5AF578441EEE595C00B1C277 /* CGFloatTests.swift in Sources */,
@@ -1102,7 +1084,6 @@
 				8889A85B1D20E8D500635002 /* UITextFieldExtensions.swift in Sources */,
 				E1587FB21CCA420400A0B071 /* UISwitchExtensions.swift in Sources */,
 				B5DC87221C0ED34300972D0A /* BlockTap.swift in Sources */,
-				B5DC87231C0ED34300972D0A /* BlockWebView.swift in Sources */,
 				B5DC87241C0ED34300972D0A /* BoolExtensions.swift in Sources */,
 				B5DC87251C0ED34300972D0A /* CGFloatExtensions.swift in Sources */,
 				5A3292F01DC5BA6F0078F7F3 /* CGPointExtensions.swift in Sources */,
@@ -1125,7 +1106,6 @@
 				5A02399D1E6D345C00C235B8 /* CollectionsExtension.swift in Sources */,
 				E178781C1C8678AA00BC05AA /* UISliderExtensions.swift in Sources */,
 				B5DC87321C0ED34300972D0A /* UIFontExtensions.swift in Sources */,
-				EDBA58C121946B01007D3F86 /* SynchronizedDictionary.swift in Sources */,
 				B5DC87331C0ED34300972D0A /* UIImageExtensions.swift in Sources */,
 				B5DC87341C0ED34300972D0A /* UIImageViewExtensions.swift in Sources */,
 				B5DC87351C0ED34300972D0A /* UILabelExtensions.swift in Sources */,
@@ -1160,7 +1140,6 @@
 				79AB4F2E1D03394F009183EC /* NSDictionaryExtensions.swift in Sources */,
 				FFA538D21E75D7150093552E /* UIStackViewTests.swift in Sources */,
 				E10A79571D6F5F3A00735549 /* BlockPanTests.swift in Sources */,
-				E10A79631D6F62DF00735549 /* BlockWebViewTests.swift in Sources */,
 				E10A795F1D6F62DF00735549 /* BlockSwipeTests.swift in Sources */,
 				E10A79871D6F65AF00735549 /* DoubleTests.swift in Sources */,
 				FADFAA5C1D9D787D00CF9F7A /* FloatingPointTests.swift in Sources */,
@@ -1219,11 +1198,9 @@
 				E10A79521D6F5CCC00735549 /* UIUserInterfaceSizeClassExtensions.swift in Sources */,
 				CD4D30BC1CEEAFD900CB53BC /* BlockSwipe.swift in Sources */,
 				E19AC0E71DCBA25800908905 /* BundleExtensions.swift in Sources */,
-				EDBA58C221946B01007D3F86 /* SynchronizedDictionary.swift in Sources */,
 				CD4D30BE1CEEAFD900CB53BC /* UISwitchExtensions.swift in Sources */,
 				E10A79391D6F4E3400735549 /* UITextFieldExtensions.swift in Sources */,
 				CD4D30BF1CEEAFD900CB53BC /* BlockTap.swift in Sources */,
-				CD4D30C11CEEAFD900CB53BC /* BlockWebView.swift in Sources */,
 				CD4D30C21CEEAFD900CB53BC /* BoolExtensions.swift in Sources */,
 				CD4D30C31CEEAFD900CB53BC /* CGFloatExtensions.swift in Sources */,
 				CD4D30C51CEEAFD900CB53BC /* CGRectExtensions.swift in Sources */,
@@ -1277,7 +1254,6 @@
 				CD4D31511CEEB9EA00CB53BC /* ArrayTests.swift in Sources */,
 				79AB4F301D03394F009183EC /* NSDictionaryExtensions.swift in Sources */,
 				E10A79581D6F5F3A00735549 /* BlockPanTests.swift in Sources */,
-				E10A79641D6F62DF00735549 /* BlockWebViewTests.swift in Sources */,
 				E10A79601D6F62DF00735549 /* BlockSwipeTests.swift in Sources */,
 				E10A79881D6F65AF00735549 /* DoubleTests.swift in Sources */,
 				FADFAA5D1D9D787D00CF9F7A /* FloatingPointTests.swift in Sources */,
@@ -1446,6 +1422,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1503,6 +1480,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1542,7 +1520,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = EZSwiftExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gbf.EZSwiftExtensions.EZSwiftExtensions;
 				PRODUCT_NAME = EZSwiftExtensions;
@@ -1563,7 +1541,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = EZSwiftExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gbf.EZSwiftExtensions.EZSwiftExtensions;
 				PRODUCT_NAME = EZSwiftExtensions;
@@ -1577,6 +1555,7 @@
 		B5DC86C11C0ED06700972D0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EZSwiftExtensionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gbf.EZSwiftExtensions.EZSwiftExtensionsTests;
@@ -1590,6 +1569,7 @@
 		B5DC86C21C0ED06700972D0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EZSwiftExtensionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gbf.EZSwiftExtensions.EZSwiftExtensionsTests;
@@ -1616,7 +1596,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -1636,7 +1616,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};

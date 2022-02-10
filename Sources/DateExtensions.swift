@@ -5,16 +5,48 @@
 //  Created by Goktug Yilmaz on 15/07/15.
 //  Copyright (c) 2015 Goktug Yilmaz. All rights reserved.
 //
+#if os(iOS) || os(tvOS)
+import UIKit
+#endif
 
 import Foundation
 
-/// EZSE: This Date Formatter Manager help to cache already created formatter in a synchronized Dictionary to use them in future, helps in performace improvement.
-
-class DateFormattersManager {
-    public static var dateFormatters: SynchronizedDictionary = SynchronizedDictionary<String, DateFormatter>()
+/// EZSE: This Synchronized Dictionary gets generic key, value types and used for the purpose of read, write on a dictionary Synchronized.
+public class SynchronizedDictionary<Key: Hashable, Value> {
+    
+    fileprivate let queue = DispatchQueue(label: "SynchronizedDictionary", attributes: .concurrent)
+    fileprivate var dict = [Key: Value]()
+    
+    public func getValue(for key: Key) -> Value? {
+        var value: Value?
+        queue.sync {
+            value = dict[key]
+        }
+        return value
+    }
+    
+    public func setValue(for key: Key, value: Value) {
+        queue.sync {
+            dict[key] = value
+        }
+    }
+    
+    public func getSize() -> Int {
+        return dict.count
+    }
+    
+    public func containValue(for key: Key) -> Bool {
+        return dict.has(key)
+    }
 }
 
+
 extension Date {
+    
+    /// EZSE: This Date Formatter Manager help to cache already created formatter in a synchronized Dictionary to use them in future, helps in performace improvement.
+    class DateFormattersManager {
+        public static let dateFormatters = SynchronizedDictionary<String, DateFormatter>()
+    }
     
     public static let minutesInAWeek = 24 * 60 * 7
     

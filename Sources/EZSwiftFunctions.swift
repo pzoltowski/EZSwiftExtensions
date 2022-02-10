@@ -7,6 +7,9 @@
 //
 
 //TODO: others standart video, gif
+#if os(iOS) || os(tvOS)
+import UIKit
+#endif
 
 import Foundation
 
